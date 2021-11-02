@@ -29,7 +29,12 @@ def conceptoS():
 
 @aplicacion.route("/conHtmlNoPlantilla")
 def metodoHtml():
-    return "<h1>prueba de formato html</h1>"   
+    return "<h1>prueba de formato html</h1>"
+
+
+@aplicacion.route("/conHtmlSiPlantilla")
+def metodoHtml2():
+    return render_template("prueba.html")
 
     
 
