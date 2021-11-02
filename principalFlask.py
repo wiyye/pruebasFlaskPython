@@ -26,7 +26,10 @@ def conceptoS():
     else:
         return "concepto no encontrado"    
 
-    
+
+@aplicacion.route("/conHtmlNoPlantilla")
+def metodoHtml():
+    return "<h1>prueba de formato html</h1>"   
 
     
 
